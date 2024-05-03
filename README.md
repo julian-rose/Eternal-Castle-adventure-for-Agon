@@ -13,7 +13,7 @@ Save the virtual world.<p>
 Story:<br>
 The story is in the style of a fantasy novel - like sci-fi, but set in an idealised past instead of the future.<br>
 Scott Adams adventures can typically be completed in a sequence of 30-40 moves.<br>
-Whereas Eternal Castle is probably over 100 moves.<p>
+Whereas Eternal Castle is probably over 100 moves.<br>
 I can't remember much detail about the world or the mission specifically, including how to win.
 So you'll have to waste time finding out...<p>
 
@@ -23,7 +23,7 @@ A year or so later it was built as a Java native back-end; and given a graphical
 Now in 2024, it serves as an exercise in porting 32-bit cygwin applications to 24-bit EZ80 ADL mode.<br>
 
 How to run (on Agon):<br>
-1. Copy the binary file Eternalez80.bin to your SD-card. This is found in your AgDev/user/Eternal-Castle-adventure-for-Agon/bin/ sub-directory.<br>
+1. Copy the binary file Eternalez80.bin to your SD-card. (This will be found in your AgDev/user/Eternal-Castle-adventure-for-Agon/bin/ sub-directory.)<br>
 2. Insert your SD-card into your Agon Light, then power on.<br>
 3. Issue the following commands from the MOS prompt:<br>
     'load Eternalez80.bin'<br>
@@ -32,8 +32,8 @@ How to run (on Agon):<br>
 How to build from source (using AgDev):<br>
 The Eternal Castle source software is arranged to follow the AgDev structure, under the .../user sub-directory. 
 This includes a Makefile.<br>
-1. Clone the repository to a location under your AgDev/user/Eternal-Castle-adventure-for-Agon/<br>
+1. Clone the repository to your AgDev/user/Eternal-Castle-adventure-for-Agon/<br>
 2. cd to the repository, .../user/Eternal-Castle-adventure-for-Agon/<br>
 3. type 'make'<br>
-                        Note you will get a number of warnings: mostly to do with the disabled debugf, comma operator having no effect, and unused parameters; and -Wsign-compare on loop variants. Ignore these.<br>
+                        You will get a number of warnings: mostly to do with the disabled debugf, comma operator having no effect, and a few unused parameters; and -Wsign-compare on loop variants. You can ignored these.<br>
                         The built image will be found under .../user/Eternal-Castle-adventure-for-Agon/bin/Eternalez80.bin<p>
